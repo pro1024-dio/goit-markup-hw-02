@@ -53,10 +53,7 @@ address {
 }
 
 .header {
-  padding-bottom: 20px;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-color: var(--basic-textcolor);
+  border-bottom: 1px solid #ececec;
 }
 
 /* style header and nav-menu and contact-info*/
@@ -69,18 +66,15 @@ address {
 
 .filter-btn {
   padding: 0;
-  letter-spacing: 0.03em;
-  width: 100px;
-  height: 30px;
-  left: 700px;
-  top: 430px;
-  background: transparent;
-  align-items: center;
-  text-align: center;
-  /* color: var(--white-color); */
-  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px; */
   border-style: none;
+  height: 38px;
+  color: var(--basic-hcolor);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .menu .link:hover,
@@ -133,7 +127,6 @@ section Hero */
   font-weight: 700;
   font-size: 16px;
   line-height: 1.86;
-  /* display: flex; */
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -152,16 +145,57 @@ section Hero */
 .base-title {
   font-weight: 700;
   color: var(--basic-hcolor);
-  font-size: 18px;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 .title {
   font-weight: 700;
   color: var(--basic-hcolor);
+  ont-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.ourteam .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+  text-transform: capitalize;
+}
+
+.portfolio .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  text-transform: capitalize;
 }
 
 .text {
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.ourteam .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-transform: capitalize;
+}
+
+.portfolio .text {
+  font-size: 16px;
+  line-height: 1.88;
+  text-transform: capitalize;
+}
+
+.ourteam {
+  background-color: var(--section-bgcolor);
 }
 
 /* style for footer */
