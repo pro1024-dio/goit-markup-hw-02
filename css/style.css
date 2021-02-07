@@ -6,6 +6,21 @@ body {
   font-style: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
+  color: var(--basic-textcolor);
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body ul {
+  padding: 0;
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 address {
@@ -20,7 +35,8 @@ address {
   text-decoration: none;
 }
 
-.logo.link {
+/* Style Logo for header and for footer */
+.logo {
   font-family: 'Raleway', sans-serif;
   color: var(--accent-color);
   font-weight: 700;
@@ -28,19 +44,43 @@ address {
   line-height: 1.19;
 }
 
-.logoheader-second {
+.logoheader-secondpart {
   color: var(--logoheader-second-color);
 }
 
-.logofooter-second {
+.logofooter-secondpart {
   color: var(--logofooter-second-color);
 }
 
+.header {
+  padding-bottom: 20px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: var(--basic-textcolor);
+}
+
+/* style header and nav-menu and contact-info*/
 .menu .link {
   color: var(--basic-hcolor);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.filter-btn {
+  padding: 0;
+  letter-spacing: 0.03em;
+  width: 100px;
+  height: 30px;
+  left: 700px;
+  top: 430px;
+  background: transparent;
+  align-items: center;
+  text-align: center;
+  /* color: var(--white-color); */
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px; */
+  border-style: none;
 }
 
 .menu .link:hover,
@@ -50,8 +90,19 @@ address {
   color: var(--accent-color);
 }
 
+.filter-nav .filter-btn:hover,
+.filter-nav .filter-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
 .menu .link.active {
   color: var(--accent-color);
+}
+
+.filter-nav .filter-btn.active {
+  background-color: var(--accent-color);
+  color: var(--white-color);
 }
 
 .listitem .header-info {
@@ -61,10 +112,8 @@ address {
   color: var(--basic-textcolor);
 }
 
-.address-info {
-  color: var(--white-color);
-}
-
+/* style main section
+section Hero */
 .tagline {
   color: var(--white-color);
   font-weight: 900;
@@ -80,7 +129,8 @@ address {
 }
 
 .btn-order {
-  font-weight: bold;
+  padding: 0;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.86;
   /* display: flex; */
@@ -95,6 +145,28 @@ address {
   color: var(--white-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border-style: none;
+}
+
+/* style section base */
+.base-title {
+  font-weight: 700;
+  color: var(--basic-hcolor);
+  font-size: 18px;
+}
+
+.title {
+  font-weight: 700;
+  color: var(--basic-hcolor);
+}
+
+.text {
+  font-weight: 500;
+}
+
+/* style for footer */
+.address-info {
+  color: var(--white-color);
 }
 
 .listitem .footer-info {
