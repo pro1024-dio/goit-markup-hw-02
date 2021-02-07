@@ -3,7 +3,7 @@ font-family: 'Raleway', sans-serif; */
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-style: 400;
+  font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--basic-textcolor);
@@ -153,7 +153,6 @@ section Hero */
 .title {
   font-weight: 700;
   color: var(--basic-hcolor);
-  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -176,13 +175,10 @@ section Hero */
 }
 
 .text {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
 }
 
 .ourteam .text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-transform: capitalize;
